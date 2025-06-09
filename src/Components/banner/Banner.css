@@ -1,0 +1,37 @@
+.main-banner{
+    width: 100%;
+    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    background-size:cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left:40px;
+}
+.banner-content{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button-container button{
+    margin-right: 10px;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.fade_bottom{
+    width: 100%;
+    background-image:linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111) ;
+    height: 100px;
+    position: relative;
+    top: -90px;
+}
