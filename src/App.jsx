@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './Components/navbar/Navbar'
 import Banner from './Components/banner/Banner'
 import MovieCards from './Components/cards/MovieCards'
+import Footer from './Components/footer/Footer'
+import { action,comedy,horror,romance,originals } from './urls'
 
 function App() {
 
@@ -13,10 +15,12 @@ function App() {
     <>
       <Navbar />
       <Banner/>
-      <MovieCards catagory='Action Thrillers' genre={28}/>
-      <MovieCards catagory='Comedy' genre={35}/>
-      <MovieCards catagory='Horror' genre={27}/>
-      <MovieCards catagory='Romance' genre={10749}/>      
+      <MovieCards catagory='Netflix orginals' genre={originals}/>
+      <MovieCards catagory='Action Thrillers' genre={action}/>
+      <MovieCards catagory='Comedy' genre={comedy}/>
+      <MovieCards catagory='Horror' genre={horror}/>
+      <MovieCards catagory='Romance' genre={romance}/>   
+      <Footer/>
     </>
   )
 }
